@@ -2,47 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=**Nunito:wght@300**&family=**Source+Serif+Pro:wght@600**&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>A simple form</title>
   </head>
   <body>
     <main>
-      <div>
-        <h1>Get in Touch</h1>
-        <p>Do you need more info? See what other people say about our product. We are very happy with your purchase.</p>
-        <div>
-          <img src="Images/gps.png" alt="gps icon">
-          <h2>Find us </h2>
-          <p>Bid Mihail Kogalníceanu, nr. 8.</br>
+      <div class="main-div">
+        <h1 class="main-div__title">Get in Touch</h1>
+        <p class="main-div__intro">Do you need more info? See what other people say about our product. We are very happy with your purchase.</p>
+        <div class="div-div div-div--findus">
+          <img class="div-div__img div-div__img--gps" src="Images/gps.png" alt="gps icon">
+          <h2 class="div-div__h2 div-div__h2--findus">Find us </h2>
+          <p class="div-div__info div-div__info--findus">Bid Mihail Kogalníceanu, nr. 8.</br>
             7652 Bucharest,</br>
-            Romania.</p>
+            Romania.
+          </p>
         </div>
-        <div>
-          <img src="Images/phone.png" alt="phone icon">
-          <h2>Give us a ring</h2>
-          <p>Michael Jordan</br>
+        <div class="div-div div-div--contactus">
+          <img class="div-div__img div-div__img--phone" src="Images/phone.png" alt="phone icon">
+          <h2 class="div-div__h2 div-div__h2--contactus">Give us a ring</h2>
+          <p class="div-div__info div-div__info--contactus">Michael Jordan</br>
             +40 762 321 762</br>
             Mon-Fri, 8:00-22:00</p>
         </div>
       </div>
       <div>
         <form>
-          <fieldset>
+          <fieldset class="form-fieldset">
+            <legend class="fieldset__legend">Contact Us</legend>
             <label for="name">
-              <input type="text" name="name" id="name" placeholder="Name">
+              <input class="label__name label__name--name" type="text" name="name" id="name" placeholder="Name">
             </label>
-            <label for="last_name">
-              <input type="text" name="last_name" id="last_name" placeholder="Last Name"> 
+            <label for="lastname">
+              <input class="label__lastname label__lastname--lastname" type="text" name="last_name" id="lastname" placeholder="Last Name"> 
             </label>
             <label for="email">
-              <input type="email" name="email" id="email" placeholder="email adress">
+              <input class="label__email label__email--email" type="email" name="email" id="email" placeholder="email adress">
             </label>
             <label for="message">
-              <input type="text" name="message" id="message" placeholder="What you want to say us?">
+              <input class="label__message label__message--message" type="text" name="message" id="message" placeholder="What you want to say us?">
             </label>
             <label for="captcha">
-              <input type="checkbox" name="captcha" id="captcha">
+              <input class="label__captcha label__captcha--captcha" type="checkbox" name="captcha" id="captcha">
             </label>
-            <button type="submit">SEND MESSAGE</button>
+            <button class="label__button label__button--button"type="submit">SEND MESSAGE</button>
           </fieldset> 
         </form>
       </div>
