@@ -10,9 +10,10 @@ h1, h2, legend {
     font-family: 'Lora', serif;
     color: white;
 }
-p, input, button{
+p, input, button, textarea{
     font-family: 'Nunito', sans-serif;
     color: gray;
+    font-size: 14px;
 }
 /* Elements Position */
 /* Get in Touch */
@@ -91,7 +92,6 @@ p, input, button{
     border-top: none;
     border-left: none;
     border-right: none;
-    
 }
 .label__input--lastname {
     position: absolute;
@@ -125,12 +125,13 @@ p, input, button{
     border-top: none;
     border-left: none;
     border-right: none;
+    resize: none;
 }
 .label__input--captcha {
     position: absolute;
     width: 154.91px;
     height: 40.65px;
-    left: 22px;
+    left: -37px;
     bottom: 25px;
 }
 .button {

@@ -40,14 +40,15 @@
               <input class="label__input--lastname" type="text" name="last_name" id="lastname" placeholder="Last Name"> 
             </label>
             <label for="email">
-              <input class="label__input--email" type="email" name="email" id="email" placeholder="email adress">
+              <input required autocomplete="email" class="label__input--email" type="email" name="email" id="email" placeholder="email adress">
             </label>
             <label for="message">
-              <input class="label__input--message" type="text" name="message" id="message" placeholder="What you want to say us?">
+              <textarea class="label__input--message" name="message" id="message" cols="30" rows="10" placeholder="What you want to say us?"></textarea>
             </label>
-            <label for="captcha">
-              <input class="label__input--captcha" type="checkbox" name="captcha" id="captcha">
-            </label>
+            <div>
+              <input required class="label__input--captcha" type="checkbox" name="captcha" id="captcha">
+              <label for="captcha">I'm not a robot  </label>
+            </div>
             <button class="button"type="submit">SEND MESSAGE</button>
           </fieldset> 
         </form>
