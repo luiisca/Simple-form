@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    background: url(Images/background.jpg)
+}
+/* Fonts */
+h1, h2, legend {
+    font-family: 'Lora', serif;
+    color: white;
+}
+p, input, button{
+    font-family: 'Nunito', sans-serif;
+    color: gray;
+}
+/* Elements Position */
+/* Get in Touch */
+.main-div {
+    position: absolute;
+    width: 417px;
+    height: 465px;
+    left: 77px;
+    top: 149px;
+}
+.form-fieldset {
+    position: absolute;
+    width: 403px;
+    height: 544px;
+    left: 840px;
+    top: 112px;
+}
+.main-div__title {
+    position: absolute;
+    width: 390px;
+    height: 63.73px;
+    left: 77px;
+    top: calc(50% - 63.73px/2 - 203.14px);
+    font-size: 48px;
+}
+.main-div__intro {
+    position: absolute;
+    width: 417px;
+    height: 86.22px;
+    left: 77px;
+    top: calc(50% - 86.22px/2 - 99.11px);
+}
+.div-div {
+    width: 353px;
+    height: 152px;
+    left: 100px;
+}
+.div-div--findus {
+    position: absolute;
+    top: 193px;
+}
+.div-div--contactus {
+    position: absolute;
+    top: 301px;
+}
+.div-div__img {
+    position: absolute;
+    width: 31px;
+    height: 30px;
+    left: -35px;
+}
+/* Form */
+.form-fieldset {
+    background: #FFFFFF;
+    border: none;
+}
+.fieldset__legend {
+    position: absolute;
+    width: 372.72px;
+    height: 99.24px;
+    left: 15.5px;
+    top: -15.5px;
+    background: #A83EBC;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    text-align: center;
+    line-height: 100px;
+}
+.label__input--name {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 22px;
+    top: 106px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+.label__input--lastname {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    right: 22px;
+    top: 106px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.label__input--email {
+    position: absolute;
+    width: 359px;
+    height: 30px;
+    left: 22px;
+    top: 172px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.label__input--message {
+    position: absolute;
+    width: 358.74px;
+    height: 157.82px;
+    left: 22px;
+    top: 242px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.label__input--captcha {
+    position: absolute;
+    width: 154.91px;
+    height: 40.65px;
+    left: 22px;
+    bottom: 25px;
+}
+.button {
+    position: absolute;
+    width: 175px;
+    height: 59px;
+    right: 22px;
+    bottom: 25px;
+}
