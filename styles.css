@@ -77,7 +77,7 @@ p, input, button, textarea, .form-checkbox{
     height: 99.24px;
     left: 15.5px;
     top: -15.5px;
-    background: #A83EBC;
+    background: linear-gradient(to right, #ad36d1, #740d99);
     font-size: 19.5px;
     box-shadow: -2px 7px 20px rgba(0, 0, 0, 0.459);
     border-radius: 3px;
@@ -148,7 +148,7 @@ p, input, button, textarea, .form-checkbox{
     height: 39px;
     right: 22px;
     bottom: 25px;
-    background: #A83EBC;
+    background: #9f08d6;
     border: none;
     border-radius: 3px;
     text-align: center;
